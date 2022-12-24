@@ -1,0 +1,13 @@
+Ejercicio2modulotime.py
+
+from time import time
+
+print(time.ctime())
+hora_salida = 19
+minuto_salida = 00
+if (hora_salida == time.hora) and (minuto_salida == time.minuto):
+    print("es la hora de ir a casa")
+else:
+    faltan_horas = hora_salida - time_hora
+    faltan_minutos = minuto_salida - time.minuto
+    print(f"Quedan {faltan_horas} horas y {faltan_minutos} minutos")
